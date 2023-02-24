@@ -92,7 +92,7 @@ const Sidebar = () => {
 									alt="profile-user"
 									width="100px"
 									height="100px"
-									src="https://i.pravatar.cc/300"
+									src={`../../assets/user.jpg`}
 									style={{cursor: 'pointer', borderRadius: '50%'}}
 								/>
 							</Box>
@@ -102,7 +102,7 @@ const Sidebar = () => {
 									color={colors.grey[100]}
 									fontWeight="bold"
 									sx={{m: '10px 0 0 0'}}>
-									Test
+									Hunter Bertoson
 								</Typography>
 								<Typography variant="h5" color={colors.greenAccent[500]}>
 									VP Fancy Admin
